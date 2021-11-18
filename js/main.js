@@ -31,8 +31,8 @@ elForm.addEventListener("submit", function(evt) {
     newImg.textContent = inputTask;
     newImg.setAttribute("src", "./img/kartoshka.png");
     newImg.setAttribute("alt", "kartoshka");
-    newImg.setAttribute("width", "380");
-    newImg.setAttribute("height", "300");
+    newImg.setAttribute("width", "350");
+    newImg.setAttribute("height", "280");
     newLi.appendChild(newImg);
 
     var newHeading = document.createElement("h2");
