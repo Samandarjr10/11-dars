@@ -29,7 +29,7 @@ elForm.addEventListener("submit", function(evt) {
 
     var newImg = document.createElement("img");
     newImg.textContent = inputTask;
-    newImg.setAttribute("src", "./img/Kartoshka.jpg.crdownload");
+    newImg.setAttribute("src", "img/kartoshka.jpg");
     newImg.setAttribute("alt", "kartoshka");
     newImg.setAttribute("width", "350");
     newImg.setAttribute("height", "250");
