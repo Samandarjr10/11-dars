@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(93, 241, 241);
+    text-align: center;
+}
+
+.header__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.header__item {
+    border-radius: 6px;
+}
+
+.header__item:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 5px 10px #a9ce07;
+}
+
+.header__heading {
+    font-size: 25px;
+    line-height: 28px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.header__text {
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff0000;
+    margin: 0;
+}
+
+.header__image-link,
+.header__product-name,
+.header__product-prize {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #161615;
+    font-size: 16px;
+}
+
+.header__image-link:hover {
+    box-shadow: 0 0 5px 10px #0051ffd5;
+}
+
+.header__product-name:hover {
+    box-shadow: 0 0 5px 10px #0452fcd5;
+}
+
+.header__product-prize:hover {
+    box-shadow: 0 0 5px 10px #da2e22d5;
+}
+
+.header__btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #161615;
+}
+
+.header__btn:active {
+    box-shadow: 0 0 5px 10px #000;
+}

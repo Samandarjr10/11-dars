@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>JaVaCRPiT</title>
 </head>
 <body>
-    <h1>Salom</h1>
+    
+    <h1 class="visually-hidden">Hello</h1>
+
+    <header class="header">
+        <div class="container">
+            <form class="form" method="get" id="form_submit">
+                <input class="header__image-link" type="text" placeholder="image link" name="image_link" id="link_img" required>
+                <input class="header__product-name" type="text" placeholder="name product" name="name_product" id="name_product" required>
+                <input class="header__product-prize" type="text" placeholder="prize product" name="prize_product" id="prize_product" required>
+                <button class="header__btn" type="submit" id="header__btn">Jo'natish</button>
+            </form>
+
+            <ul class="header__list" id="header_list"></ul>
+        </div>
+    </header>
     <script src="./js/main.js"></script>
 </body>
 </html>
